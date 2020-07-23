@@ -1,11 +1,11 @@
 
-# testing
+# My Project
 
-
+![MIT](https://img.shields.io/badge/license-MIT-green)
 ![](https://img.shields.io/badge/-Bootcamp-blue)
 
 ## Description
-testong
+This is a description of my project
 
 ## Table of Contents
 * [Installation](#installation)
@@ -16,21 +16,21 @@ testong
 * [Questions](#questions)
 
 ## Installation
-testing
+These are my installation instructions
 
 ## Usage
-testing
+This is my usage information
 
 ## License
-This application uses the  license.
+This application uses the MIT license.
 
 ## Contributing
-testing
+These are my contribution guidelines
 
 ## Tests
-testing
+These are my test instructions
 
 ## Questions
-More info about this application can be found at <https://github.com/testing>.     
-If you have any questions you can email <testing>.
+More info about this application can be found at <https://github.com/tmylesc>.     
+If you have any questions you can email <tmcoradetti@gmail.com>.
     
