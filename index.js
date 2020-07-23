@@ -67,6 +67,7 @@ function askQuestions () {
 //Function that creates what will be added to the new readme file
 function generateReadme(answers) {
 
+    //Selects which license badge to use based on what was chosen in the prompt
     if (answers.licenses[0] === "Apache 2") {
         var licenseBadge = "![Apache 2](https://img.shields.io/badge/license-Apache%202-blue)";
     } else if (answers.licenses[0] === "MIT") {
@@ -75,8 +76,7 @@ function generateReadme(answers) {
         var licenseBadge = "![GPL](https://img.shields.io/badge/license-GPL-blue)";
     } else {
         var licenseBadge = "";
-    }
-
+    };
 
     return `
 # ${answers.title}
@@ -116,17 +116,15 @@ If you have any questions you can email <${answers.email}>.
     `;
 };
     
-
-// function to write README file
-function writeToFile(fileName, data) {
-};
-
 // function to initialize program
 async function init() {
+    //Runs the question prompts
     const answers = await askQuestions();
 
+    //Creates readme text
     const readme = generateReadme(answers);
 
+    //creates readme file with the generated text
     await writeFileAsync("README.md", readme);
 
 };
