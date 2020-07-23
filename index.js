@@ -129,8 +129,6 @@ async function init() {
 
     await writeFileAsync("README.md", readme);
 
-    console.log(answers);
-
 };
 
 // function call to initialize program
