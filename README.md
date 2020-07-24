@@ -1,36 +1,13 @@
 
-# My Project
-
-![MIT](https://img.shields.io/badge/license-MIT-green)
-![](https://img.shields.io/badge/-Bootcamp-blue)
+# Readme Generator
 
 ## Description
-This is a description of my project
+This is a readme generator that uses inquirer to receive information about a project from the user.     
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+The user runs node index.js in the terminal and then must enter information about the project through various prompts.    
 
-## Installation
-These are my installation instructions
+After all the prompts are answered, a README file is created with all of the project info.
 
-## Usage
-This is my usage information
-
-## License
-This application uses the MIT license.
-
-## Contributing
-These are my contribution guidelines
-
-## Tests
-These are my test instructions
-
-## Questions
-More info about this application can be found at <https://github.com/tmylesc>.     
-If you have any questions you can email <tmcoradetti@gmail.com>.
+![](Assets\Images\terminal-screenshot.png)     
     
+![](Assets\Images\readme-screenshot.png)
